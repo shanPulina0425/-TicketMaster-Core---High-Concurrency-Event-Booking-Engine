@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Ticeket_Master_DataBase?createDatabaseIfNotExist=True
+    username: root
+    password: 81805500
+
+  jpa:
+   hibernate:
+     ddl-auto: update
+   show-sql: true
