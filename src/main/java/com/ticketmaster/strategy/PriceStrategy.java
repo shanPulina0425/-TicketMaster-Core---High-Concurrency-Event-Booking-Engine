@@ -1,4 +1,8 @@
 package com.ticketmaster.strategy;
 
-public class PriceStrategy {
+import com.ticketmaster.model.entity.Event;
+
+public interface PriceStrategy {
+    double calculatePrice(Event event);
+    boolean hasPriority();
 }
