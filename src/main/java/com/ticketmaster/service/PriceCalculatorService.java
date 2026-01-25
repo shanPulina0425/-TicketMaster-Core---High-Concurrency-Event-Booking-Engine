@@ -1,6 +1,5 @@
 package com.ticketmaster.service;
 
-import com.ticketmaster.model.entity.Event;
 import com.ticketmaster.model.entity.User;
 import com.ticketmaster.strategy.*;
 
