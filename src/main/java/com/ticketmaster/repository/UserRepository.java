@@ -1,4 +1,6 @@
 package com.ticketmaster.repository;
 
-public class UserRepository {
-}
+import com.ticketmaster.model.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepository extends JpaRepository<User, Long> {}
