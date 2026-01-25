@@ -1,4 +1,15 @@
 package com.ticketmaster.strategy;
 
-public class RegularPriceStrategy {
+import com.ticketmaster.model.entity.Event;
+import com.ticketmaster.strategy.PriceStrategy;
+
+public class RegularPriceStrategy implements PriceStrategy {
+
+    public double calculatePrice(Event event) {
+        return event.getBasePrice();
+    }
+
+    public boolean hasPriority() {
+        return false;
+    }
 }
